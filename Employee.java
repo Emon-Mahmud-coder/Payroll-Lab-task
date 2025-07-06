@@ -1,6 +1,6 @@
 public abstract  class Employee {
-    protected String FirstName ;
-    protected  String LastName;
+    private String FirstName ;
+    private  String LastName;
     private String SocialSecurityNumber;
 
     Employee(String FirstName , String LastName , String SocialSecurityNumber)
