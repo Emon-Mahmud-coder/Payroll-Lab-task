@@ -1,5 +1,5 @@
 public class BasePlusCommissionEmployee extends CommisionEmployee  {
-     protected double BaseSalary;
+     private double BaseSalary;
     BasePlusCommissionEmployee(String FirstName, String LastName, String SocialSecurityNumber, double GrossSales, double ComissionRate , double BaseSalary) {
         super(FirstName, LastName, SocialSecurityNumber, GrossSales, ComissionRate);
         this.BaseSalary = BaseSalary;
