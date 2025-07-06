@@ -1,5 +1,5 @@
 public class SalariedEmployee extends Employee{
-    protected final double WeeklySalary;
+   private final double WeeklySalary;
 
     SalariedEmployee(String FirstName, String LastName, String SocialSecurityNumber ,double WeeklySalary) {
         super(FirstName, LastName, SocialSecurityNumber);
