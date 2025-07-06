@@ -13,7 +13,7 @@ public class BasePlusCommissionEmployee extends CommisionEmployee  {
     public double Earnings()
     {
 
-        return BaseSalary + GrossSales*CommisionRate;
+        return BaseSalary +getGrossSales()*getCommisionRate();
     }
 
     public void setBaseSalary(double BaseSalary) {
