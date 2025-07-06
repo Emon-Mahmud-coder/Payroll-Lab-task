@@ -1,7 +1,7 @@
 public class HourlyEmployee extends Employee{
 
-    protected final double  HourlyWage;
-    protected final double  HoursWorked;
+      private final double  HourlyWage;
+      private double  HoursWorked;
 
     HourlyEmployee(String FirstName, String LastName, String SocialSecurityNumber , double HourlyWage , double HoursWorked) {
         super(FirstName, LastName, SocialSecurityNumber);
@@ -16,7 +16,7 @@ public class HourlyEmployee extends Employee{
         {
             return HoursWorked*HourlyWage;
         }else {
-            return HourlyWage*HoursWorked + (HoursWorked-40)*HourlyWage*1.5;
+            return HourlyWage*40+ (HoursWorked-40)*HourlyWage*1.5;
         }
     }
 
